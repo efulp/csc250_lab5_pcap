@@ -53,9 +53,6 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("---------------------------------------------------------------------------------------- \n");
-    printf("%s, num pkt %d \n", argv[1], num_pkt);  
-
     return 0;
 }
 

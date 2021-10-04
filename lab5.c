@@ -1,8 +1,7 @@
 /**
- * This program reads a pcap file and prints the a summery of each packet heder, then summary statistics
- * about all the packets. top 5 most frequent letters (upper or lower case). The pcap file name is 
- * provided using command line arguments. If the file name is not provided or the file is not readable, 
- * the program will exit and provide an error message.
+ * This program reads a pcap file and prints the secret message encoded in the ECN bit field of packets. 
+ * The pcap file name is provided using command line arguments. If the file name is not provided or the 
+ * file is not readable, the program will exit and provide an error message.
  *
  * @author Your Name Here {@literal <pluf@wfu.edu>}
  * @date Oct. 3, 2021

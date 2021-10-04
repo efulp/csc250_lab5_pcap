@@ -83,7 +83,7 @@ int packet_OK(const unsigned char **packet, unsigned int capture_len) {
 
 
 /**
- * Processes a packet, displays the packst summary, and updates the pcap stats
+ * Processes a packet and reassembles secret characters from the ECN field
  * Most of the work in this program is done here...
  **/
 void process_packet(const unsigned char *packet) {
